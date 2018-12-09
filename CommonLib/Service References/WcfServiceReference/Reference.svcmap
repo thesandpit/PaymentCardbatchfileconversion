@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e08ced05-b3fc-45ab-a15f-d544548d6144" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://192.168.0.31:9002/ServiceModel/Service" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service.wsdl" MetadataType="Wsdl" ID="5f05b020-5319-4ebf-aba1-41c11271868d" SourceId="1" SourceUrl="http://192.168.0.31:9002/ServiceModel/Service?wsdl=wsdl0" />
+    <MetadataFile FileName="WcfService.wsdl" MetadataType="Wsdl" ID="799fd24a-05e9-418c-bf8f-ade203f074ca" SourceId="1" SourceUrl="http://192.168.0.31:9002/ServiceModel/Service?wsdl" />
+    <MetadataFile FileName="Service.xsd" MetadataType="Schema" ID="4f36acca-095c-4eb5-901c-a8f3a5eaccc1" SourceId="1" SourceUrl="http://192.168.0.31:9002/ServiceModel/Service?xsd=xsd1" />
+    <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="c346324b-3130-44a6-864e-916879979a8f" SourceId="1" SourceUrl="http://192.168.0.31:9002/ServiceModel/Service?xsd=xsd0" />
+    <MetadataFile FileName="Service.disco" MetadataType="Disco" ID="3eb917cf-2723-4f92-b3b2-30c9aee33e5c" SourceId="1" SourceUrl="http://192.168.0.31:9002/ServiceModel/Service?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

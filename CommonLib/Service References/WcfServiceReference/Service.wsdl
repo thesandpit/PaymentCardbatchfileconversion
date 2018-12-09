@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://Microsoft.ServiceModel.Samples" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://Microsoft.ServiceModel.Samples" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://Microsoft.ServiceModel.Samples/Imports">
+      <xsd:import schemaLocation="http://192.168.0.31:9002/ServiceModel/Service?xsd=xsd0" namespace="http://Microsoft.ServiceModel.Samples" />
+      <xsd:import schemaLocation="http://192.168.0.31:9002/ServiceModel/Service?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IWcfService_RunApp_InputMessage">
+    <wsdl:part name="parameters" element="tns:RunApp" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_RunApp_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RunAppResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_RunInteractiveProcess_InputMessage">
+    <wsdl:part name="parameters" element="tns:RunInteractiveProcess" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_RunInteractiveProcess_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RunInteractiveProcessResponse" />
+  </wsdl:message>
+  <wsdl:portType msc:usingSession="false" name="IWcfService">
+    <wsdl:operation name="RunApp">
+      <wsdl:input wsam:Action="http://Microsoft.ServiceModel.Samples/IWcfService/RunApp" message="tns:IWcfService_RunApp_InputMessage" />
+      <wsdl:output wsam:Action="http://Microsoft.ServiceModel.Samples/IWcfService/RunAppResponse" message="tns:IWcfService_RunApp_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RunInteractiveProcess">
+      <wsdl:input wsam:Action="http://Microsoft.ServiceModel.Samples/IWcfService/RunInteractiveProcess" message="tns:IWcfService_RunInteractiveProcess_InputMessage" />
+      <wsdl:output wsam:Action="http://Microsoft.ServiceModel.Samples/IWcfService/RunInteractiveProcessResponse" message="tns:IWcfService_RunInteractiveProcess_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

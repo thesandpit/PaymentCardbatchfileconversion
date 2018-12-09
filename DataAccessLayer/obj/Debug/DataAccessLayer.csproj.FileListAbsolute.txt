@@ -1,0 +1,16 @@
+H:\My Safes\PaymentCard_batch_file_conversion\DataAccessLayer\bin\Debug\NLog.config
+H:\My Safes\PaymentCard_batch_file_conversion\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+H:\My Safes\PaymentCard_batch_file_conversion\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+H:\My Safes\PaymentCard_batch_file_conversion\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+H:\My Safes\PaymentCard_batch_file_conversion\DataAccessLayer\bin\Debug\LinqToExcel.dll
+H:\My Safes\PaymentCard_batch_file_conversion\DataAccessLayer\bin\Debug\log4net.dll
+H:\My Safes\PaymentCard_batch_file_conversion\DataAccessLayer\bin\Debug\NLog.dll
+H:\My Safes\PaymentCard_batch_file_conversion\DataAccessLayer\bin\Debug\Remotion.Data.Linq.dll
+H:\My Safes\PaymentCard_batch_file_conversion\DataAccessLayer\bin\Debug\Remotion.dll
+H:\My Safes\PaymentCard_batch_file_conversion\DataAccessLayer\bin\Debug\Remotion.Interfaces.dll
+H:\My Safes\PaymentCard_batch_file_conversion\DataAccessLayer\bin\Debug\LinqToExcel.xml
+H:\My Safes\PaymentCard_batch_file_conversion\DataAccessLayer\bin\Debug\log4net.xml
+H:\My Safes\PaymentCard_batch_file_conversion\DataAccessLayer\bin\Debug\NLog.xml
+H:\My Safes\PaymentCard_batch_file_conversion\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+H:\My Safes\PaymentCard_batch_file_conversion\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+H:\My Safes\PaymentCard_batch_file_conversion\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

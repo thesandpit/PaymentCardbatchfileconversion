@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Intranet" Class="SimplyPaymentCardDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DB1;Initial Catalog=Intranet;Integrated Security=True" SettingsObjectName="DataAccessLayer.Properties.Settings" SettingsPropertyName="IntranetConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Recon_DataReceived" Member="Recon_DataReceiveds">
+    <Type Name="Recon_DataReceived">
+      <Column Name="DR_UID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DR_ClientID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DR_JobID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DR_Datetime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DR_TotalReceived" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DR_DocType" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DR_FileName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DR_DPUID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Recon_DataProcessed" Member="Recon_DataProcesseds">
+    <Type Name="Recon_DataProcessed">
+      <Column Name="DP_UID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DP_FileName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="DP_DateProcessed" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DP_TotalProcessed" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProcessingStarted" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ProcessingFinished" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DP_MailedSets" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DP_EmailedSets" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DP_MailedPages" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DP_MailedImages" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DP_ArchSets" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DP_Reconcilled" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DP_ReturnedSets" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DP_MailedRecords" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DP_MailedSetsC4" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DP_Division" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DR_IDs" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="DP_EmailAddress" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="DP_Images" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DP_ImagedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DP_SetsLodged" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DP_ElmsNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DP_LodgedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DP_BUNCarryOverRecords" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DP_EmailPages" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DP_EmailedImages" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DP_EmailedSets2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DP_Ignored" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DP_ArchiveOnly" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DP_EmailedRecords" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DP_ReturnedRecords" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DP_PrioritySets" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Recon_JobNumbers" Member="Recon_JobNumbers">
+    <Type Name="Recon_JobNumber">
+      <Column Name="JN_UID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="JN_Month" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="JN_JobNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="JU_ClientID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="JU_Division" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="JN_Comment" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Recon_DocType" Member="Recon_DocTypes">
+    <Type Name="Recon_DocType">
+      <Column Name="DT_UID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DT_Description" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DT_ClientID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DT_DocType" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DT_UnitCharge" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="DT_Division" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DT_DisplayOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DT_DisplayIOLog" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Recon_Divisions" Member="Recon_Divisions">
+    <Type Name="Recon_Division">
+      <Column Name="D_UID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="D_ClientID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="D_Division" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="D_Comment" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Recon_Tracking" Member="Recon_Trackings">
+    <Type Name="Recon_Tracking">
+      <Column Name="T_UID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DR_UID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TrackingNo" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Flag" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="AddressLine1" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="AddressLine2" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="AddressLine3" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="Subub" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="State" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="Postcode" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="FileName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

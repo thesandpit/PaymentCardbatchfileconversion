@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SimplyEnergy">
+  <DataContextMoniker Name="/SimplyEnergyDataContext" />
+  <nestedChildShapes>
+    <classShape Id="82ff2b03-8309-4f0f-900c-24ab0cd15d6f" absoluteBounds="2.5, 2.625, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/SimplyEnergyDataContext/stella_ERSRate" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d6f1bfad-fa44-4c93-982f-55ab84804173" absoluteBounds="2.515, 3.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2456da71-24e5-48f1-9977-c894c1195611" absoluteBounds="1.375, 1, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/SimplyEnergyDataContext/web_DocType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="649fb9ad-0ec9-497b-9762-22c98b35085f" absoluteBounds="1.3900000000000001, 1.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

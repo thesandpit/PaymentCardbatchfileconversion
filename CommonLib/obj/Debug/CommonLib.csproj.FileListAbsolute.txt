@@ -1,0 +1,17 @@
+H:\My Safes\PaymentCard_batch_file_conversion\CommonLib\obj\Debug\CommonLib.csprojResolveAssemblyReference.cache
+H:\My Safes\PaymentCard_batch_file_conversion\CommonLib\bin\Debug\NLog.config
+H:\My Safes\PaymentCard_batch_file_conversion\CommonLib\bin\Debug\CommonLib.dll.config
+H:\My Safes\PaymentCard_batch_file_conversion\CommonLib\bin\Debug\CommonLib.dll
+H:\My Safes\PaymentCard_batch_file_conversion\CommonLib\bin\Debug\CommonLib.pdb
+H:\My Safes\PaymentCard_batch_file_conversion\CommonLib\bin\Debug\CsvHelper.dll
+H:\My Safes\PaymentCard_batch_file_conversion\CommonLib\bin\Debug\DataAccessLayer.dll
+H:\My Safes\PaymentCard_batch_file_conversion\CommonLib\bin\Debug\Ionic.Zip.dll
+H:\My Safes\PaymentCard_batch_file_conversion\CommonLib\bin\Debug\iTextSharp.dll
+H:\My Safes\PaymentCard_batch_file_conversion\CommonLib\bin\Debug\NLog.dll
+H:\My Safes\PaymentCard_batch_file_conversion\CommonLib\bin\Debug\Renci.SshNet.dll
+H:\My Safes\PaymentCard_batch_file_conversion\CommonLib\bin\Debug\DataAccessLayer.pdb
+H:\My Safes\PaymentCard_batch_file_conversion\CommonLib\bin\Debug\Ionic.Zip.xml
+H:\My Safes\PaymentCard_batch_file_conversion\CommonLib\bin\Debug\iTextSharp.xml
+H:\My Safes\PaymentCard_batch_file_conversion\CommonLib\bin\Debug\NLog.xml
+H:\My Safes\PaymentCard_batch_file_conversion\CommonLib\obj\Debug\CommonLib.dll
+H:\My Safes\PaymentCard_batch_file_conversion\CommonLib\obj\Debug\CommonLib.pdb

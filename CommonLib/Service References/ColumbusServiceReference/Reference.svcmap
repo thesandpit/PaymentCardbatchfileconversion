@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ca3bffd0-066d-403a-86f3-5c1e5585818a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://192.168.0.31:9003/ServiceIntergration/ColumbusArchService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ColumbusArchService.disco" MetadataType="Disco" ID="bdd37c25-43de-45f9-88b7-14c6babd55a4" SourceId="1" SourceUrl="http://192.168.0.31:9003/ServiceIntergration/ColumbusArchService?disco" />
+    <MetadataFile FileName="ColumbusArchService.wsdl" MetadataType="Wsdl" ID="6a4366a7-318a-4744-87c0-739b34c940fd" SourceId="1" SourceUrl="http://192.168.0.31:9003/ServiceIntergration/ColumbusArchService?wsdl" />
+    <MetadataFile FileName="ColumbusArchService.xsd" MetadataType="Schema" ID="0a5f9372-95f3-403d-a4c7-c4634a4e8121" SourceId="1" SourceUrl="http://192.168.0.31:9003/ServiceIntergration/ColumbusArchService?xsd=xsd0" />
+    <MetadataFile FileName="ColumbusArchService1.xsd" MetadataType="Schema" ID="8f711ab0-0d73-4fbc-80f8-8fbbb7f0a203" SourceId="1" SourceUrl="http://192.168.0.31:9003/ServiceIntergration/ColumbusArchService?xsd=xsd1" />
+    <MetadataFile FileName="ColumbusArchService2.xsd" MetadataType="Schema" ID="ff5d3667-198c-40e6-ab54-c98407427a7a" SourceId="1" SourceUrl="http://192.168.0.31:9003/ServiceIntergration/ColumbusArchService?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

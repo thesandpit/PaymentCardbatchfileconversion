@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 9.75" name="SimplyPaymentCard">
+  <DataContextMoniker Name="/SimplyPaymentCardDataContext" />
+  <nestedChildShapes>
+    <classShape Id="cb52782a-e41b-4b45-ab28-906ba0bad355" absoluteBounds="4.375, 2.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/SimplyPaymentCardDataContext/Recon_DataReceived" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8f549787-d5ab-4293-824a-792ffd6c4759" absoluteBounds="4.39, 2.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="acaa814f-a373-4ff9-9c3f-0a1365c9e9b8" absoluteBounds="1.625, 2.5, 2, 6.9630354817708326">
+      <DataClassMoniker Name="/SimplyPaymentCardDataContext/Recon_DataProcessed" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7c73918f-6d08-47da-a791-a3e8eb6e68a1" absoluteBounds="1.6400000000000001, 2.96, 1.9700000000000002, 6.403035481770833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ed69da45-2701-48ae-83f5-3c2b446504a3" absoluteBounds="7.375, 2.625, 2, 1.9631982421875">
+      <DataClassMoniker Name="/SimplyPaymentCardDataContext/Recon_JobNumber" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d1a7c40f-25d6-455e-9296-7a56b3e388c8" absoluteBounds="7.3900000000000006, 3.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3cb3ac96-ccf0-46c1-9c6b-afb0674e80ec" absoluteBounds="4.375, 5.125, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/SimplyPaymentCardDataContext/Recon_DocType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7596cf5e-7e3c-4ca6-9f07-94da8ea9d2a9" absoluteBounds="4.39, 5.585, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="80176320-1272-47d4-b656-d2403613d81e" absoluteBounds="4.375, 7.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SimplyPaymentCardDataContext/Recon_Division" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8a09a8ee-0df8-486a-ad33-91401f2faa65" absoluteBounds="4.39, 8.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d25af4ef-2aaa-403e-b1ef-02ed4ccfa357" absoluteBounds="8.125, 6.375, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/SimplyPaymentCardDataContext/Recon_Tracking" />
+      <nestedChildShapes>
+        <elementListCompartment Id="376684e2-3969-4c55-a15f-009194b9362e" absoluteBounds="8.14, 6.835, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
